@@ -1,5 +1,5 @@
-import Student from './student/Student';
 import styles from './staticMain.module.css';
+import Student from './student/Student';
 import Teacher from './teacher/Teacher';
 
 
