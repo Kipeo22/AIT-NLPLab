@@ -1,0 +1,51 @@
+.navbar {
+  background-color: #094067;
+  overflow: hidden;
+  width: 75%;
+  height: 60px;
+  margin: 20px auto;
+  border-radius: 30px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0 100px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar ul li {
+  display: inline;
+  padding: 18px;
+  /* position: relative; */
+}
+
+.navbar ul li a {
+  display: block;
+  color: #fffffe;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 2px;
+  position: relative;
+}
+
+.navbar ul li a::after {
+  position: absolute;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #fffffe;
+  border-radius: 1px;
+  bottom: -1px;
+  transform: scale(0, 1);
+  transform-origin: right top;
+  transition: transform 0.3s;
+}
+
+.navbar ul li a:hover::after {
+  transform: scale(1, 1);
+  transform-origin: left top;
+}

@@ -1,0 +1,19 @@
+
+
+.MemberImage {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.MemberItem p {
+  max-width: 200px;
+  text-align: center;
+}
+
+.MemberItem h4 {
+  max-width: 200px;
+  text-align: center;
+}
+
+

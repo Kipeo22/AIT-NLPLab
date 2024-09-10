@@ -1,0 +1,31 @@
+
+
+.section {
+  margin-bottom: 160px;
+}
+
+.section h2 {
+  font-size: 32px;
+  margin-bottom: 60px;
+  text-align: left;
+}
+
+.professor {
+  background-color: #d8eefe;
+  padding: 3% 6%;
+  margin: 0px 5% 60px 5%;
+}
+.member h3 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.MemberContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 80px;
+  text-align: center;
+  /* margin: 0 auto; */
+  margin: 0px 80px 20px 80px;
+}

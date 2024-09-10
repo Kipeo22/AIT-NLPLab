@@ -1,0 +1,13 @@
+.section {
+  margin-bottom: 160px;
+}
+
+.section h2 {
+  font-size: 32px;
+  margin-bottom: 60px;
+  text-align: left;
+}
+
+.about p {
+  margin: 0px 5% 20px 5%;
+}
