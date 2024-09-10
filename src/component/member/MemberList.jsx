@@ -1,6 +1,7 @@
-import Teacher from './teacher/Teacher';
 import Student from './student/Student';
 import styles from './staticMain.module.css';
+import Teacher from './teacher/Teacher';
+
 
 export default function MemberList({ teachers, students }) {
   return (
