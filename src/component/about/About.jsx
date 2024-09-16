@@ -7,7 +7,7 @@ export default function About() {
       <div className={styles.about}>
         <h2>About</h2>
         <p>
-          愛知工業大学自然言語処理研究室（徳久研究室）のホームページです。
+          <a href="https://www.ait.ac.jp/faculty/info-science/">愛知工業大学情報科学部情報科学科</a>自然言語処理研究室（徳久研究室）のホームページです。
         </p>
       </div>
     </section>
