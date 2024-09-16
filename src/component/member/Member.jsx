@@ -4,9 +4,9 @@ export default function Member() {
   const teachers = [
     {
       title: '教授',
-      name: '教員名',
+      name: '教員名：徳久良子',
       image: '/member_img/professor.jpg',
-      description: 'ここに教員情報を記入する。ここに教員情報を記入する。',
+      description: '徳久良子(Ryoko TOKUHISA)',
     },
   ];
 
