@@ -1,38 +1,79 @@
-
-
-.section {
-  margin-bottom: 160px;
-}
-
-.section h2 {
-  font-size: 32px;
-  margin-bottom: 60px;
-  text-align: left;
-}
-
-
-
 .NewsContainer {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
-  text-align: center;
-  /* margin: 0 auto; */
-  margin: 0px 15px 20px 40px;
+  flex-direction: column;
+  gap: 20px; /* 各ニュースアイテムの間にスペースを追加 */
 }
 
 .NewsItem {
-  margin: 0 30px;
+  display: flex;
+  flex-direction: row; /* 画像とテキストを横並びに */
+  gap: 20px; /* 画像とテキストの間にスペースを追加 */
+}
+
+.NewsItem img {
+  max-width: 50%; /* 画像の幅を50%に設定 */
+  height: auto;
+}
+
+.NewsContent {
+  display: flex;
+  flex-direction: column; /* 日付、タイトル、説明文を縦に並べる */
+  justify-content: flex-start;
+  gap: 10px; /* 各要素間にスペースを追加 */
+}
+
+.NewsDate {
+  font-size: 14px;
+  color: #fff;
+  background-color: #160570;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 5px; /* 日付とタイトルの間にスペースを追加 */
+}
+
+.NewsTitle {
+  margin: 0;
+  font-size: 1.5rem;
 }
 
 .NewsItem p {
-  max-width: 280px;
-  margin: 0 auto;
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
-.NewsItem h3 {
-  max-width: 340px;
-  text-align: center;
+.PresentationList {
+  list-style-type: disc; /* 箇条書きスタイルをディスクに設定 */
+  padding-left: 20px; /* 左のインデントを追加 */
+  margin-top: 10px; /* 説明文とリストの間にスペースを追加 */
 }
 
+.PresentationList li {
+  margin-bottom: 5px; /* リストアイテム間のスペースを追加 */
+  font-size: 1rem; /* リストアイテムのフォントサイズを指定 */
+  line-height: 1.5; /* 行間の高さを指定 */
+}
+
+.MoreLink {
+  margin-top: 20px; /* ボタンの上に20pxの余白を追加 */
+}
+.MoreLink button {
+  background-color: #160570; /* 青色 */
+  color: white; /* 白文字 */
+  border: none;
+  border-radius: 5px; /* ボタンの丸み */
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* ホバーエフェクトのためのトランジション */
+}
+
+.MoreLink button:hover {
+  background-color: #0056b3; /* ホバー時に少し濃い青色に変化 */
+}
+
+.MoreLink button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5); /* フォーカス時のエフェクト */
+}
