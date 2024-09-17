@@ -26,6 +26,7 @@ export default function Member() {
           </ul>
         </>
       ),
+      link: 'https://sites.google.com/view/ryokotokuhisa/%E3%83%9B%E3%83%BC%E3%83%A0', // 教員ページのURL
     },
   ];
 
@@ -34,41 +35,49 @@ export default function Member() {
       name: 'ライオン',
       image: '/member_img/hida.jpg',
       description: 'がおーーーーーーーーーーーーーーー',
+      link: 'https://example.com/url', // 個人ページURL
     },
     {
         name: 'ライオン',
         image: '/member_img/ichikawa.jpg',
         description: 'がおーーーーーーーーーーーーーーー',
+        link: 'https://example.com/url', // 個人ページURL
       },
       {
         name: 'ライオン',
         image: '/member_img/kippei.png',
         description: 'がおーーーーーーーーーーーーーーー',
+        link: 'https://example.com/url', // 個人ページURL
       },
       {
         name: 'ライオン',
         image: '/member_img/masui.jpg',
         description: 'がおーーーーーーーーーーーーーーー',
+        link: 'https://example.com/url', // 個人ページURL
       },
       {
         name: 'ライオン',
         image: '/member_img/Okajima.jpg',
         description: 'がおーーーーーーーーーーーーーーー',
+        link: 'https://example.com/url', // 個人ページURL
       },
       {
         name: 'ライオン',
         image: '/member_img/Otsuka.jpg',
         description: 'がおーーーーーーーーーーーーーーー',
+        link: 'https://example.com/url', // 個人ページURL
       },
       {
         name: 'ライオン',
         image: '/member_img/shibata.jpg',
         description: 'がおーーーーーーーーーーーーーーー',
+        link: 'https://example.com/url', // 個人ページURL
       },
       {
         name: 'ライオン',
         image: '/member_img/shimizu.jpg',
         description: 'がおーーーーーーーーーーーーーーー',
+        link: 'https://example.com/url', // 個人ページURL
       },
 
   ];
