@@ -12,16 +12,16 @@ function Index() {
         <a href='#' className={styles.link}>
           HOME
         </a>
-        <a href='#' className={styles.link}>
-          ABOUT
+        <a href='#news' className={styles.link}>
+          NEWS
         </a>
-        <a href='#' className={styles.link}>
+        <a href='#member' className={styles.link}>
           MEMBER
         </a>
         <a href='#' className={styles.link}>
-          ACHIEVEMENTS
+          PUBLICATIONS
         </a>
-        <a href='#' className={styles.link}>
+        <a href='#contact' className={styles.link}>
           CONTACT
         </a>
       </nav>
