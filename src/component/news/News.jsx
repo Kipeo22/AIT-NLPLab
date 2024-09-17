@@ -21,7 +21,7 @@ export default function News() {
     },
     {
       image: '/news_img/P1047364.jpg',
-      date: '2024年9月4日-9月6日',
+      date: '2024/09/04-2024/09/06',
       title: '第19回言語処理若手シンポジウム（YANS2024）発表',
       description: '言語処理若手シンポジウム（YANS2024）で、徳久研究室から4件の発表をしました。',
       presentations: [
@@ -36,6 +36,12 @@ export default function News() {
       date: '2024/06/21',
       title: '徳久研発足会をしました',
       description: '徳久研究室のメンバーで焼肉を食べに行きました！',
+    },
+    {
+      image: '/news_img/P1047364.jpg',
+      date: '2024/05/17',
+      title: '徳久研究室がスタートしました',
+      description: '研究室に8名の3年生が配属され、徳久研究室がスタートしました。',
     },
   ];
 
