@@ -48,7 +48,9 @@ export default function News() {
             <div key={index} className={styles.NewsItem}>
               <Image src={newsItem.image} alt={`news image ${index + 1}`} width={340} height={230} />
               <div className={styles.NewsText}>
-                <p className ={styles.NewsDate}>{newsItem.date}</p> {/* 各ニュースごとの日付 */}
+                <p>
+                  <span className ={styles.NewsDate}>{newsItem.date}</span> {/* 各ニュースごとの日付 */}
+                </p>
                 <h3>{newsItem.title}</h3> {/* 各ニュースごとのタイトル */}
                 <p>{newsItem.description}</p> {/* 各ニュースごとの説明 */}
                 {/* presentationsがある場合にリストを表示 */}
