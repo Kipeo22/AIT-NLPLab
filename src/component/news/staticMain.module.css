@@ -35,7 +35,8 @@
 
 .NewsItem img {
   max-width: 50%; /* 画像の幅を50%に設定 */
-  height: auto;
+  object-fit: cover;
+  /*height: auto;*/
 }
 
 .NewsContent {
