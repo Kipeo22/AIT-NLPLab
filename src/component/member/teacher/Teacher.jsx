@@ -15,8 +15,8 @@ export default function Teacher({ teacher }) {
               style={{ objectFit: 'cover' }}
             />
           </div>
-          <p>{teacher.description}</p>
-        </a>
+          </a>
+        <p>{teacher.description}</p>
       </div>
     </div>
   );
