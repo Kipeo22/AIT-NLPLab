@@ -23,15 +23,21 @@
 }
 
 .NewsItem {
-  margin: 0 30px;
+  display: flex;
+  align-items: flex-start; /* 写真とコンテンツを上揃えにする */
+  gap: 20px; /* 写真とテキスト間のスペース */
 }
 
-.NewsItem p {
-  max-width: 280px;
-  margin: 0 auto;
+.NewsText {
+  display: flex;
+  flex-direction: column;
 }
 
-.NewsItem h3 {
-  max-width: 340px;
-  text-align: center;
+.NewsText h3 {
+  margin: 5px 0;
+}
+
+.NewsText p {
+  margin: 5px 0;
+  color: #666; /* 説明文の色を少し薄く */
 }
