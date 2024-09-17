@@ -14,7 +14,7 @@ export default function Home() {
         <div className={style.firstView}>
           <div className={style.title}>
             <h1>AIT Tokuhisa Lab</h1>
-            <p>自然言語処理研究室</p>
+            <p>自然言語処理学研究室</p>
           </div>
         </div>
       </header>
