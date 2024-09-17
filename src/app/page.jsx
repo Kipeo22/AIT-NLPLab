@@ -19,6 +19,7 @@ export default function Home() {
         </div>
       </header>
       <main>
+        <About />
         <News />
         <Member />
         <Contact />
