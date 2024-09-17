@@ -10,13 +10,13 @@ function nav() {
             <a href='#HOME'>HOME</a>
           </li>
           <li>
-            <a href='#ABOUT'>ABOUT</a>
+            <a href='#NEWS'>NEWS</a>
           </li>
           <li>
             <a href='#MEMBER'>MEMBER</a>
           </li>
           <li>
-            <a href='#ACHIEVEMENT'>ACHIEVEMENT</a>
+            <a href='#PUBLICATIONS'>PUBLICATIONS</a>
           </li>
           <li>
             <a href='#CONTACT'>CONTACT</a>
