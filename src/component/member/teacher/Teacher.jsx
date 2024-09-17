@@ -3,9 +3,9 @@ import styles from './staticMain.module.css';
 
 export default function Teacher({ teacher }) {
   return (
-    <a href={teacher.link} target="_blank" rel="noopener noreferrer" className={styles.professorLink}> {/* ここでリンクを設定 */}
-      <div className={styles.teacher}>
-        <div className={styles.profInfo}>
+    <div className={styles.teacher}>
+      <div className={styles.profInfo}>
+        <a href={teacher.link} target="_blank" rel="noopener noreferrer" className={styles.professorLink}> {/* ここでリンクを設定 */}
           <div className={styles.profImage}>
             <Image
               src={teacher.image}
@@ -16,8 +16,8 @@ export default function Teacher({ teacher }) {
             />
           </div>
           <p>{teacher.description}</p>
-        </div>
+        </a>
       </div>
-    </a>
+    </div>
   );
 }
