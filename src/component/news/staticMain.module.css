@@ -14,18 +14,56 @@
 
 .NewsContainer {
   display: flex;
-  justify-content: center;
+  flex-direction: column; /* 縦に並べる */
+  gap: 20px; /* 各アイテムの間隔 */
+
+  /* *** original here to *** */
+  /* justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
-  text-align: center;
+  text-align: center; */
   /* margin: 0 auto; */
-  margin: 0px 15px 20px 40px;
+  /* margin: 0px 15px 20px 40px; */
+  /* *** here *** */
 }
 
 .NewsItem {
   display: flex;
-  align-items: flex-start; /* 写真とコンテンツを上揃えにする */
+  flex-direction: row; /* 画像とテキストを横並びに */
   gap: 20px; /* 写真とテキスト間のスペース */
+}
+
+.NewsItem img {
+  max-width: 50%; /* 画像の幅を50%に設定 */
+  height: auto;
+}
+
+.NewsContent {
+  display: flex;
+  flex-direction: column; /* 日付、タイトル、説明文を縦に並べる */
+  justify-content: flex-start;
+  gap: 10px; /* 各要素間にスペースを追加 */
+}
+
+.NewsDate {
+  font-size: 14px;
+  color: #fff;
+  background-color: #160570;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 5px; /* 日付とタイトルの間にスペースを追加 */
+}
+
+.NewsTitle {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.NewsItem p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 .NewsText {
