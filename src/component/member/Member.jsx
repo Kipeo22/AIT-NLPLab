@@ -6,7 +6,15 @@ export default function Member() {
       title: '教授',
       name: '教員名：徳久良子',
       image: '/member_img/professor.jpg',
-      description: '徳久良子(Ryoko TOKUHISA)',
+      description: (
+        <>
+          徳久良子(Ryoko TOKUHISA)
+          <ul>
+            <li>言語処理学会理事</li>
+            <li>対話システムシンポジウム実行委員長</li>
+          </ul>
+        </>
+      ),
     },
   ];
 
