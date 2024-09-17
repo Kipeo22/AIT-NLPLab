@@ -38,7 +38,7 @@ export default function News() {
       description: '徳久研究室のメンバーで焼肉を食べに行きました！',
     },
     {
-      image: '/news_img/P1047364.jpg',
+      image: '/news_img/20240517.jpg',
       date: '2024/05/17',
       title: '徳久研究室がスタートしました',
       description: '研究室に8名の3年生が配属され、徳久研究室がスタートしました。',
