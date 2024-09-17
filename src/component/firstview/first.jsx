@@ -6,7 +6,7 @@ function first() {
     <div className={styles.headerImage}>
       <div className={styles.headerText}>
         <h1>AIT Tokuhisa Lab</h1>
-        <p>自然言語処理研究室</p>
+        <p>自然言語処理学研究室</p>
       </div>
     </div>
   )
