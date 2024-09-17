@@ -79,3 +79,15 @@
   margin: 5px 0;
   color: #666; /* 説明文の色を少し薄く */
 }
+
+.PresentationList {
+  list-style-type: disc; /* 箇条書きスタイルをディスクに設定 */
+  padding-left: 20px; /* 左のインデントを追加 */
+  margin-top: 10px; /* 説明文とリストの間にスペースを追加 */
+}
+
+.PresentationList li {
+  margin-bottom: 5px; /* リストアイテム間のスペースを追加 */
+  font-size: 1rem; /* リストアイテムのフォントサイズを指定 */
+  line-height: 1.5; /* 行間の高さを指定 */
+}
