@@ -11,13 +11,13 @@ export default function News() {
       description: '説明1を書く。1行から2行程度が望ましい。',
     },
     {
-      image: '/news_img/P1047365.jpg',
+      image: '/news_img/P1047364.jpg',
       date: '2024/09/18',
       title: 'タイトル2',
       description: '説明2を書く。内容は簡潔に。',
     },
     {
-      image: '/news_img/P1047366.jpg',
+      image: '/news_img/P1047364.jpg',
       date: '2024/09/19',
       title: 'タイトル3',
       description: '説明3を書く。詳細を伝える。',
