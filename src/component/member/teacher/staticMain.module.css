@@ -2,12 +2,18 @@
 
 .professor {
   background-color: #d8eefe;
+  text-decoration: none;
   padding: 3% 6%;
   margin: 0px 5% 60px 5%;
 }
 
+.professorLink:hover {
+  text-decoration: none; /* ホバー時も下線を消す */
+}
+
 .profInfo {
   display: flex;
+  text-decoration: none;
   justify-content: center;
   gap: 6%;
   /* margin-top: 60px; */
@@ -20,13 +26,5 @@
   position: relative;
   width: 200px;
   height: 250px;
-}
-
-a {
-  text-decoration: none; /* リンクの下線を消す */
-}
-
-a:hover {
-  text-decoration: none; /* ホバー時も下線を消す */
 }
 
