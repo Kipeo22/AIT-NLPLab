@@ -96,35 +96,3 @@
   color: #666; /* 文字は灰色に */
 }
 
-@media (max-width: 768px) {
-  .NewsContainer {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .NewsItem {
-    flex-direction: column; /* 縦に並べる */
-    text-align: center; /* テキストを中央揃え */
-  }
-
-  .NewsItem img {
-    max-width: 100%;
-    height: auto;
-  }
-
-  h3 {
-    font-size: 1.2rem;
-  }
-
-  p {
-    font-size: 1rem;
-  }
-
-  .NewsDate {
-    font-size: 0.9rem;
-  }
-
-  .PresentationList {
-    padding-left: 15px;
-  }
-}
