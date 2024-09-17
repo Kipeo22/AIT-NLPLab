@@ -96,3 +96,15 @@
   color: #666; /* 文字は灰色に */
 }
 
+@media (max-width: 768px){
+  .section{
+    margin-bottom: 80px;
+  }
+
+  .section h2{
+    font-size: 24px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+}
