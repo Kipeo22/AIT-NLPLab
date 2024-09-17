@@ -31,6 +31,7 @@
   display: flex;
   flex-direction: row; /* 画像とテキストを横並びに */
   gap: 20px; /* 写真とテキスト間のスペース */
+  align-items: center; /* 画像とテキストを縦方向に中央揃え */
 }
 
 .NewsItem img {
