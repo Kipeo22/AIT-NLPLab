@@ -45,11 +45,10 @@ export default function News() {
                 <p>{newsItem.date}</p> {/* 各ニュースごとの日付 */}
                 <h3>{newsItem.title}</h3> {/* 各ニュースごとのタイトル */}
                 <p>{newsItem.description}</p> {/* 各ニュースごとの説明 */}
-                <p>{news.description}</p>
                 {/* presentationsがある場合にリストを表示 */}
-                {news.presentations && (
+                {newsItem.presentations && (
                   <ul className={styles.PresentationList}>
-                    {news.presentations.map((presentation, i) => {
+                    {newsItem.presentations.map((presentation, i) => {
                       const [title, author] = presentation.split('・・・'); // タイトルと著者を分割
                       return (
                         <li key={i}>
