@@ -18,7 +18,7 @@ export default function Member() {
             </li>
             <li>研究テーマ
               <ul>
-                <li>エージェントとの対話システム</li>
+                <li>対話エージェント</li>
                 <li>感情推定</li>
                 <li>自然言語処理</li>
               </ul>
