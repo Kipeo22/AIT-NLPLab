@@ -16,6 +16,13 @@ export default function Member() {
                 <li>対話システムシンポジウム実行委員長</li>
               </ul>
             </li>
+            <li>研究テーマ
+              <ul>
+                <li>エージェントとの対話システム</li>
+                <li>感情推定</li>
+                <li>自然言語処理</li>
+              </ul>
+            </li>
           </ul>
         </>
       ),
