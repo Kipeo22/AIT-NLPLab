@@ -22,3 +22,11 @@
   height: 250px;
 }
 
+a {
+  text-decoration: none; /* リンクの下線を消す */
+}
+
+a:hover {
+  text-decoration: none; /* ホバー時も下線を消す */
+}
+
