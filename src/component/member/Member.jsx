@@ -8,7 +8,7 @@ export default function Member() {
       image: '/member_img/professor.jpg',
       description: (
         <>
-          <strong>徳久良子(Ryoko TOKUHISA)</strong>
+          <strong>徳久良子(Ryoko TOKUHISA) <a href={teacher.link} target="_blank" rel="noopener noreferrer">個人ページ</a></strong>
           <ul>
             <li>学会活動
               <ul>
