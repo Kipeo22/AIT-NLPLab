@@ -32,53 +32,53 @@ export default function Member() {
 
   const students = [
     {
-      name: 'ライオン',
-      image: '/member_img/hida.jpg',
-      description: 'がおーーーーーーーーーーーーーーー',
+      name: '市川淳貴',
+      image: '/member_img/ichikawa.jpg',
+      description: '研究テーマ：',
       link: 'https://example.com/url', // 個人ページURL
     },
     {
-        name: 'ライオン',
-        image: '/member_img/ichikawa.jpg',
-        description: 'がおーーーーーーーーーーーーーーー',
-        link: 'https://example.com/url', // 個人ページURL
-      },
-      {
-        name: 'ライオン',
-        image: '/member_img/kippei.png',
-        description: 'がおーーーーーーーーーーーーーーー',
-        link: 'https://example.com/url', // 個人ページURL
-      },
-      {
-        name: 'ライオン',
-        image: '/member_img/masui.jpg',
-        description: 'がおーーーーーーーーーーーーーーー',
-        link: 'https://example.com/url', // 個人ページURL
-      },
-      {
-        name: 'ライオン',
-        image: '/member_img/Okajima.jpg',
-        description: 'がおーーーーーーーーーーーーーーー',
-        link: 'https://example.com/url', // 個人ページURL
-      },
-      {
-        name: 'ライオン',
-        image: '/member_img/Otsuka.jpg',
-        description: 'がおーーーーーーーーーーーーーーー',
-        link: 'https://example.com/url', // 個人ページURL
-      },
-      {
-        name: 'ライオン',
-        image: '/member_img/shibata.jpg',
-        description: 'がおーーーーーーーーーーーーーーー',
-        link: 'https://example.com/url', // 個人ページURL
-      },
-      {
-        name: 'ライオン',
-        image: '/member_img/shimizu.jpg',
-        description: 'がおーーーーーーーーーーーーーーー',
-        link: 'https://example.com/url', // 個人ページURL
-      },
+      name: '大塚晴貴',
+      image: '/member_img/Otsuka.jpg',
+      description: '研究テーマ：',
+      link: 'https://example.com/url', // 個人ページURL
+    },
+　　{
+      name: '岡島史周',
+      image: '/member_img/Okajima.jpg',
+      description: '研究テーマ：',
+      link: 'https://example.com/url', // 個人ページURL
+    },
+    {
+      name: '柴田翔空',
+      image: '/member_img/shibata.jpg',
+      description: '研究テーマ',
+      link: 'https://example.com/url', // 個人ページURL
+    },
+    {
+      name: '清水綾太',
+      image: '/member_img/shimizu.jpg',
+      description: 'がおーーーーーーーーーーーーーーー',
+      link: 'https://example.com/url', // 個人ページURL
+    },
+　  {
+      name: '長谷川騎平',
+      image: '/member_img/kippei.png',
+      description: '研究テーマ：',
+      link: 'https://example.com/url', // 個人ページURL
+    },
+　　{
+      name: '肥田京佳',
+      image: '/member_img/hida.jpg',
+      description: '研究テーマ：',
+      link: 'https://kyoka-hida.github.io', // 個人ページURL
+    },
+    {
+      name: '増井辰真',
+      image: '/member_img/masui.jpg',
+      description: '研究テーマ：',
+      link: 'https://example.com/url', // 個人ページURL
+    },
 
   ];
 
