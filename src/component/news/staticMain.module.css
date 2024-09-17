@@ -95,3 +95,40 @@
   line-height: 1.5; /* 行間の高さを指定 */
   color: #666; /* 文字は灰色に */
 }
+
+@media (max-width: 768px) {
+  /* ニュースコンテナを縦並びに */
+  .NewsContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* ニュースアイテムの配置を縦並びに */
+  .NewsItem {
+    flex-direction: column; /* 縦に並べる */
+    text-align: center; /* テキストを中央揃え */
+  }
+
+  /* 画像のサイズを100%にしてレスポンシブ対応 */
+  .NewsItem img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* タイトルや本文のフォントサイズ調整 */
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .NewsDate {
+    font-size: 0.9rem;
+  }
+
+  .PresentationList {
+    padding-left: 15px;
+  }
+}
