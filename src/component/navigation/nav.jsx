@@ -1,10 +1,7 @@
 import React from 'react'
-import React, {useState} from 'react'
 import styles from './nav.module.css'
 
 function nav() {
-  const [isMenuOpen, setMenuOpen] = useState(false);
-
   return (
     <div>
       <nav className={styles.navbar}>
