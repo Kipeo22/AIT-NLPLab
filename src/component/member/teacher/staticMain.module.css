@@ -28,3 +28,20 @@
   height: 250px;
 }
 
+@media (max-width: 768px) {
+  .professor {
+    padding: 5% 10%;
+    margin: 0px 10% 30px 10%;
+  }
+
+  .profInfo {
+    display: block;
+    margin: 20px 5%;
+    padding: 5%;
+  }
+
+  .profImage {
+    width: 100%;
+    height: auto;
+  }
+}
