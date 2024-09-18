@@ -20,7 +20,7 @@
 
 .navbar ul {
   list-style-type: none;
-  padding: 0　100px;
+  padding: 0　50px;
   margin: 0;
   display: flex;
   justify-content: space-between;
@@ -64,6 +64,15 @@
   transform-origin: left top;
 }
 
+/* スマホの時にはHomeとNewsは表示しない */
+@media (max-width: 768px){
+  .hideOnMobile{
+    display: none;
+  }
+}
+
+
+/* スマホの時には縦並び */
 /*
 @media (max-width: 768px){
   .navbar {
