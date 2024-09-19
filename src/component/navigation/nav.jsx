@@ -9,7 +9,7 @@ function nav() {
           <li className={styles.hideOnMobile}>
             <a href='#home'>HOME</a>
           </li>
-          <li>
+          <li　className={styles.hideOnMobile}>
             <a href='#news'>NEWS</a>
           </li>
           <li>
