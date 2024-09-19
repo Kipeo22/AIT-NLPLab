@@ -113,7 +113,7 @@
     gap: 15px;
   }
 
-  .NewsDate{
+  .NewsItem .NewsDate{
     order: 1;
   }
 
