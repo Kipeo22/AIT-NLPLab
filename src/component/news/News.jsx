@@ -32,7 +32,7 @@ export default function News() {
       ]
     },
     {
-      image: '/news_img/20240621.jpg',
+      image: '/news_img/20240621.JPG',
       date: '2024/06/21',
       title: '徳久研の発足会をしました',
       description: '徳久研究室のメンバーで焼肉を食べに行きました！',
