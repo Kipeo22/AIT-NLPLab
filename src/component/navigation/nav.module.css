@@ -64,6 +64,11 @@
   transform-origin: left top;
 }
 
+@media (max-width: 768px){
+  .hideOnMobile{
+    display: none;
+  }
+}
 
 /* スマホの時には縦並び */
 /*
