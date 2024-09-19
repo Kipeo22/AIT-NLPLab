@@ -111,14 +111,7 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 15px;
-  }
-
-  .NewsItem .NewsDate{
     order: 1;
-  }
-
-  .NewsItem h3{
-    order: 2;
   }
 
   .NewsItem img{
@@ -134,7 +127,7 @@
   .NewsItem p {
     font-size: 0.9rem;
     line-height: 1.4;
-    order: 4;
+    order: 2;
   }
 
   .PresentationList {
