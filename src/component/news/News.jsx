@@ -5,7 +5,7 @@ export default function News() {
 
   const newsData = [
     {
-      image: '/news_img/P1047364.jpg',
+      image: '/news_img/20240906YANShida.jpg',
       date: '2024/09/05',
       title: '肥田京佳が「YANS2024奨励賞」受賞',
       description: '第19回言語処理学会主催言語処理若手シンポジウム（YANS2024）で、以下のタイトルで発表し、肥田京佳が「奨励賞」を受賞しました。',
@@ -20,7 +20,7 @@ export default function News() {
       description: '第19回言語処理若手シンポジウム（YANS2024）で行われたハッカソンで、大塚晴貴が「大喜利ハッカソン優秀賞」を受賞しました。',
     },
     {
-      image: '/news_img/P1047364.jpg',
+      image: '/news_img/20240904yansall.jpg',
       date: '2024/09/04-2024/09/06',
       title: '第19回言語処理若手シンポジウム（YANS2024）発表',
       description: '言語処理若手シンポジウム（YANS2024）で、徳久研究室から4件の発表をしました。',
