@@ -10,10 +10,12 @@ export default function Member() {
         <>
           <strong>徳久良子(Ryoko TOKUHISA) </strong>
           <ul>
-            <li>学会活動
+            <li>研究活動
               <ul>
-                <li>言語処理学会理事</li>
-                <li>対話システムシンポジウム実行委員長</li>
+              <li>愛知工業大学情報科学部 教授</li>
+              <li>理化学研究所客員研究員</li>
+              <li>言語処理学会理事</li>
+              <li>人工知能学会対話システムシンポジウム実行委員長</li>
               </ul>
             </li>
             <li>研究テーマ
