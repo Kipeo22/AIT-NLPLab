@@ -6,7 +6,7 @@ function nav() {
     <div>
       <nav className={styles.navbar}>
         <ul>
-          <li className={styles.hideOnMobile}>
+          <li>
             <a href='#home'>HOME</a>
           </li>
           <li>
