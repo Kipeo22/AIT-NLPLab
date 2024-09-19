@@ -41,7 +41,7 @@ export default function News() {
       image: '/news_img/20240517.jpg',
       date: '2024/05/17',
       title: '徳久研究室がスタートしました',
-      description: '研究室に8名の3年生が配属され、徳久研究室がスタートしました。',
+      description: '研究室に学部3年生が8名配属されて、徳久研究室がスタートしました。',
     },
   ];
 
