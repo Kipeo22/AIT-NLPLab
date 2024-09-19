@@ -65,7 +65,7 @@
 }
 
 @media (max-width: 768px){
-  .hideOnMobile{
+  .navbar ul li.hideOnMobile{
     display: none;
   }
 }
