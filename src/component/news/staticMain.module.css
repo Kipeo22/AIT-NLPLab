@@ -113,28 +113,37 @@
     gap: 15px;
   }
 
+  .NewsDate{
+    order: 1;
+  }
+
   .NewsItem img{
     max-width: 100%;
     height: auto;
+    order: 3;
   }
 
   .NewsTitle {
     font-size: 1.2rem;
+    order: 2;
   }
 
   .NewsItem p {
     font-size: 0.9rem;
     line-height: 1.4;
+    order: 4;
   }
 
   .PresentationList {
     padding-left: 15px;
     margin-top: 5px;
+    order: 5;
   }
 
   .PresentationList li{
     font-size: 0.9rem;
     margin-bottom: 3px;
+    order: 6;
   }
 
 }
