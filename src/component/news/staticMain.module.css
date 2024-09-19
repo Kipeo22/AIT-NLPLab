@@ -111,11 +111,14 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 15px;
-    order: 3;
   }
 
   .NewsDate{
     order: 1;
+  }
+
+  .NewsText h3{
+    order: 2;
   }
 
   .NewsItem img{
@@ -126,7 +129,6 @@
 
   .NewsTitle {
     font-size: 1.2rem;
-    order: 2;
   }
 
   .NewsItem p {
@@ -144,7 +146,6 @@
   .PresentationList li{
     font-size: 0.9rem;
     margin-bottom: 3px;
-    order: 6;
   }
 
 }
