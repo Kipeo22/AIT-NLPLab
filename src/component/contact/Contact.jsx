@@ -2,9 +2,9 @@ import styles from './staticMain.module.css';
 
 export default function Contact() {
   return (
-    <section id='contact' className={styles.section}>
+    <section id='access' className={styles.section}>
       <div className={styles.contact}>
-        <h2>Contact</h2>
+        <h2>Access</h2>
         <p>
           <strong>住所：</strong><br />
           〒470-0392<br /> 

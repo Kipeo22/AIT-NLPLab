@@ -21,8 +21,8 @@ function Index() {
         <a href='#' className={styles.link}>
           PUBLICATIONS
         </a>
-        <a href='#contact' className={styles.link}>
-          CONTACT
+        <a href='#access' className={styles.link}>
+          ACCESS
         </a>
       </nav>
       <div className={styles.dots}>

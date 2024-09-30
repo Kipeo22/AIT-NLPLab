@@ -19,7 +19,7 @@ function nav() {
             <a href='#publications'>PUBLICATIONS</a>
           </li>
           <li>
-            <a href='#contact'>CONTACT</a>
+            <a href='#access'>ACCESS</a>
           </li>
         </ul>
       </nav>
