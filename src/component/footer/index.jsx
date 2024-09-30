@@ -6,7 +6,7 @@ function Index() {
   return (
     <div className={styles.footerWrap}>
       <div className={styles.header}>
-        <h1 className={styles.title}>愛知工業大学 自然言語処理研究室</h1>
+        <h1 className={styles.title}>愛知工業大学 自然言語処理学研究室</h1>
       </div>
       <nav className={styles.nav}>
         <a href='#' className={styles.link}>
