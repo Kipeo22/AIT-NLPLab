@@ -5,7 +5,7 @@ export default function News() {
 
   const newsData = [
     {
-      image: '/news_img/20240906YANShida.png',
+      image: '/~nlplab/news_img/20240906YANShida.png',
       date: '2024/09/05',
       title: '肥田京佳が「YANS2024奨励賞」受賞',
       description: '第19回言語処理学会主催言語処理若手シンポジウム（YANS2024）で、以下のタイトルで発表し、肥田京佳が「奨励賞」を受賞しました。',
@@ -14,13 +14,13 @@ export default function News() {
       ]
     },
     {
-      image: '/news_img/P1047364.jpg',
+      image: '/~nlplab/news_img/P1047364.jpg',
       date: '2024/09/04',
       title: '大塚晴貴が「大喜利ハッカソン優秀賞」受賞',
       description: '第19回言語処理若手シンポジウム（YANS2024）で行われたハッカソンで、大塚晴貴が「大喜利ハッカソン優秀賞」を受賞しました。',
     },
     {
-      image: '/news_img/20240904yansall.png',
+      image: '/~nlplab/news_img/20240904yansall.png',
       date: '2024/09/04-2024/09/06',
       title: '第19回言語処理若手シンポジウム（YANS2024）発表',
       description: '言語処理若手シンポジウム（YANS2024）で、徳久研究室から4件の発表をしました。',
@@ -32,13 +32,13 @@ export default function News() {
       ]
     },
     {
-      image: '/news_img/20240621.JPG',
+      image: '/~nlplab/news_img/20240621.JPG',
       date: '2024/06/21',
       title: '徳久研の発足会をしました',
       description: '徳久研究室のメンバーで焼肉を食べに行きました！',
     },
     {
-      image: '/header_img/IMG_3039.jpg',
+      image: '/~nlplab/header_img/IMG_3039.jpg',
       date: '2024/05/17',
       title: '徳久研究室がスタートしました',
       description: '研究室に学部3年生が8名配属されて、徳久研究室がスタートしました。',
@@ -52,7 +52,7 @@ export default function News() {
         <div className={styles.NewsContainer}>
           {newsData.map((newsItem, index) => (
             <div key={index} className={styles.NewsItem}>
-              <Image src={newsItem.image} alt={`news image ${index + 1}`} width={340} height={230} />
+              <img src={newsItem.image} alt={`news image ${index + 1}`} width={340} height={230} /> 
               <div className={styles.NewsText}>
                 <p>
                   <span className ={styles.NewsDate}>{newsItem.date}</span> {/* 各ニュースごとの日付 */}

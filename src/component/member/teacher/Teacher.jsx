@@ -7,7 +7,7 @@ export default function Teacher({ teacher }) {
       <div className={styles.profInfo}>
         <a href={teacher.link} target="_blank" rel="noopener noreferrer" className={styles.professorLink}> {/* ここでリンクを設定 */}
           <div className={styles.profImage}>
-            <Image
+            <img
               src={teacher.image}
               alt={teacher.name}
               width={200}

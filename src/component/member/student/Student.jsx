@@ -6,10 +6,11 @@ export default function Student({ student }) {
     <div className={styles.MemberItem}>
       <div className={styles.MemberImage}>
         <a href={student.link} target="_blank" rel="noopener noreferrer">
-          <Image
+          <img
             src={student.image}
             alt={student.name}
-            fill
+            width={200}
+            height={200}
             style={{ objectFit: 'cover' }}
           />
         </a>

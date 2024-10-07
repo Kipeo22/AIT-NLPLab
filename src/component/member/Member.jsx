@@ -5,7 +5,7 @@ export default function Member() {
     {
       title: '教授',
       name: '教員名：徳久良子',
-      image: '/member_img/professor.jpg',
+      image: '/~nlplab/member_img/professor.jpg',
       description: (
         <>
           <strong>徳久良子(Ryoko TOKUHISA) </strong>
@@ -35,49 +35,49 @@ export default function Member() {
   const students = [
     {
       name: '市川淳貴',
-      image: '/member_img/ichikawa.jpg',
+      image: '/~nlplab/member_img/ichikawa.jpg',
       /* description: '氏名の下に何かひとこと書きたい人はここに書いてコメントを外してください', */
       link: 'https://example.com/url', // 個人ページURL
     },
     {
       name: '大塚晴貴',
-      image: '/member_img/Otsuka.jpg',
+      image: '/~nlplab/member_img/Otsuka.jpg',
       /* description: '氏名の下に何かひとこと書きたい人はここに書いてコメントを外してください', */
       link: 'https://example.com/url', // 個人ページURL
     },
 　　{
       name: '岡島史周',
-      image: '/member_img/Okajima.jpg',
+      image: '/~nlplab/member_img/Okajima.jpg',
       /* description: '氏名の下に何かひとこと書きたい人はここに書いてコメントを外してください', */
       link: 'https://example.com/url', // 個人ページURL
     },
     {
       name: '柴田翔空',
-      image: '/member_img/shibata.jpg',
+      image: '/~nlplab/member_img/shibata.jpg',
       /* description: '氏名の下に何かひとこと書きたい人はここに書いてコメントを外してください', */
       link: 'https://example.com/url', // 個人ページURL
     },
     {
       name: '清水綾太',
-      image: '/member_img/shimizu.jpg',
+      image: '/~nlplab/member_img/shimizu.jpg',
       /* description: '氏名の下に何かひとこと書きたい人はここに書いてコメントを外してください', */
       link: 'https://example.com/url', // 個人ページURL
     },
 　  {
       name: '長谷川騎平',
-      image: '/member_img/kippei.png',
+      image: '/~nlplab/member_img/kippei.png',
       /* description: '氏名の下に何かひとこと書きたい人はここに書いてコメントを外してください', */
       link: 'https://example.com/url', // 個人ページURL
     },
 　　{
       name: '肥田京佳',
-      image: '/member_img/hida.jpg',
+      image: '/~nlplab/member_img/hida.jpg',
       /* description: '氏名の下に何かひとこと書きたい人はここに書いてコメントを外してください', */
       link: 'https://kyoka-hida.github.io', // 個人ページURL
     },
     {
       name: '増井辰真',
-      image: '/member_img/masui.jpg',
+      image: '/~nlplab/member_img/masui.jpg',
       /* description: '氏名の下に何かひとこと書きたい人はここに書いてコメントを外してください', */
       link: 'https://example.com/url', // 個人ページURL
     },
