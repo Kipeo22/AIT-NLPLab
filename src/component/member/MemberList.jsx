@@ -16,6 +16,7 @@ export default function MemberList({ teachers, students }) {
       </div>
       <div className={styles.students}>
         <h3>学部3年生</h3>
+        <p className={styles.centerText}>画像をクリックすると各自のホームページが表示されます</p>
         <div className={styles.MemberContainer}>
           {students.map((student, index) => (
             <Student key={index} student={student} />

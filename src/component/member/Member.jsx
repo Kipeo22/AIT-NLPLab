@@ -8,7 +8,11 @@ export default function Member() {
       image: '/~nlplab/member_img/professor.jpg',
       description: (
         <>
-          <strong>徳久良子(Ryoko TOKUHISA) </strong>
+          <strong><a 
+              href="https://sites.google.com/view/ryokotokuhisa/%E3%83%9B%E3%83%BC%E3%83%A0" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >徳久良子(Ryoko TOKUHISA) </a></strong>
           <ul>
             <li>研究活動
               <ul>
