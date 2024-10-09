@@ -5,8 +5,8 @@ export default function News() {
 
   const newsData = [
     {
-      image: '/~nlplab/news_img/20240906YANShida.png',
-      date: '2024/09/05',
+      image: '/~nlplab/news_img/20240906YANS_hida.JPG',
+      date: '2024/09/06',
       title: '肥田京佳が「YANS2024奨励賞」受賞',
       description: '第19回言語処理学会主催言語処理若手シンポジウム（YANS2024）で、以下のタイトルで発表し、肥田京佳が「奨励賞」を受賞しました。',
       presentations: [
@@ -14,7 +14,7 @@ export default function News() {
       ]
     },
     {
-      image: '/~nlplab/news_img/P1047364.jpg',
+      image: '/~nlplab/news_img/20240906YANS_otsuka.JPG',
       date: '2024/09/04',
       title: '大塚晴貴が「大喜利ハッカソン優秀賞」受賞',
       description: '第19回言語処理若手シンポジウム（YANS2024）で行われたハッカソンで、大塚晴貴が「大喜利ハッカソン優秀賞」を受賞しました。',
