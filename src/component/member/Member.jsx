@@ -41,7 +41,7 @@ export default function Member() {
       name: '市川淳貴',
       image: '/~nlplab/member_img/ichikawa.jpg',
       /* description: '氏名の下に何かひとこと書きたい人はここに書いてコメントを外してください', */
-      link: 'https://example.com/url', // 個人ページURL
+      link: 'https://atsuki-ichikawa.github.io', // 個人ページURL
     },
     {
       name: '大塚晴貴',
@@ -53,7 +53,7 @@ export default function Member() {
       name: '岡島史周',
       image: '/~nlplab/member_img/Okajima.jpg',
       /* description: '氏名の下に何かひとこと書きたい人はここに書いてコメントを外してください', */
-      link: 'https://example.com/url', // 個人ページURL
+      link: 'https://fuchiiiii.github.io/', // 個人ページURL
     },
     {
       name: '柴田翔空',
@@ -71,7 +71,7 @@ export default function Member() {
       name: '長谷川騎平',
       image: '/~nlplab/member_img/kippei.png',
       /* description: '氏名の下に何かひとこと書きたい人はここに書いてコメントを外してください', */
-      link: 'https://example.com/url', // 個人ページURL
+      link: 'https://sites.google.com/view/kipeo-portfolio', // 個人ページURL
     },
 　　{
       name: '肥田京佳',
