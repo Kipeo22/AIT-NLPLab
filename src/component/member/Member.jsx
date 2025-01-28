@@ -13,7 +13,7 @@ export default function Member() {
               target="_blank" 
               rel="noopener noreferrer"
             >徳久良子(Ryoko TOKUHISA) </a></strong>
-            <p>rtokuhisa at aitech.ac.jp</p>
+            <p>メール：rtokuhisa at aitech.ac.jp</p>
           <ul>
             <li>研究活動
               <ul>
