@@ -3,8 +3,8 @@
 .professor {
   background-color: #d8eefe;
   text-decoration: none;
-  padding: 2% 4%;
-  margin: 0px 3% 40px 3%;
+  padding: 2% 2%;
+  margin: 0px 2% 40px 2%;
 }
 
 .professorLink:hover {
@@ -31,13 +31,13 @@
 
 @media (max-width: 768px) {
   .professor {
-    padding: 5% 10%;
-    margin: 0px 10% 30px 10%;
+    padding: 3% 4%;
+    margin: 0px 3% 20px 3%;
   }
 
   .profInfo {
     display: block;
-    margin: 20px 5%;
+    margin: 5% 5%;
     padding: 5%;
   }
 
