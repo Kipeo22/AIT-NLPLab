@@ -11,6 +11,8 @@ export default function Contact() {
           豊田市八草町八千草1247 愛知工業大学情報科学部 14号館708号 徳久研究室</p>
         <p><strong>電話：</strong><br />
         0565-48-8121(内線2416)</p>
+        <p><strong>メールアドレス：</strong><br />
+        rtokuhisa at aitech.ac.jp</p>
       </div>
     </section>
   );
