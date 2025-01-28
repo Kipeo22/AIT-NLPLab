@@ -24,8 +24,9 @@
 
 .profImage {
   position: relative;
-  width: 150px;
-  height: auto;
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
 }
 
 @media (max-width: 768px) {
