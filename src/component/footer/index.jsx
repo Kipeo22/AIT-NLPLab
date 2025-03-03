@@ -25,11 +25,6 @@ function Index() {
           ACCESS
         </a>
       </nav>
-      <div className={styles.dots}>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
       <footer className={styles.footer}>© 2024 AIT NLP TOKUHISA LAB.</footer>
     </div>
   )
