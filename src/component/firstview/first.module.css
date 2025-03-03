@@ -18,10 +18,3 @@
 .headerText h1 {
   font-size: 48px;
 }
-
-@media screen and (max-width: 768px) {
-  .headerText h1 {
-    font-size: 24px; /* スマホ画面でのフォントサイズを小さく */
-    white-space: nowrap; /* 改行させない */
-  }
-}
