@@ -5,10 +5,16 @@ export default function News() {
 
   const newsData = [
     {
+      image: '/~nlplab/news_img/20250324_ait.jpg',
+      date: '2025/03/24',
+      title: '肥田京佳さんが学生表彰を受賞',
+      description: 'YANS2024での受賞が評価され、肥田京佳さんが愛知工業大学の令和六年度学生表彰を受けました。',
+    },
+    {
       image: '/~nlplab/news_img/20240906YANS_hida.JPG',
       date: '2024/09/06',
-      title: '肥田京佳が「YANS2024奨励賞」受賞',
-      description: '第19回言語処理学会主催言語処理若手シンポジウム（YANS2024）で、以下のタイトルで発表し、肥田京佳が「奨励賞」を受賞しました。',
+      title: '肥田京佳さんが「YANS2024奨励賞」受賞',
+      description: '第19回言語処理学会主催言語処理若手シンポジウム（YANS2024）で、以下のタイトルで発表し、肥田京佳さんが「奨励賞」を受賞しました。',
       presentations: [
         '「ふわふわ」「もったり」ってどう表現するの？ ーエージェントとの豊かなコミュニケーションの実現に向けてー・・・肥田 京佳, 市川 淳貴, 徳久 良子',
       ]
@@ -16,8 +22,8 @@ export default function News() {
     {
       image: '/~nlplab/news_img/20240906YANS_otsuka.JPG',
       date: '2024/09/04',
-      title: '大塚晴貴が「大喜利ハッカソン優秀賞」受賞',
-      description: '第19回言語処理若手シンポジウム（YANS2024）で行われたハッカソンで、大塚晴貴が「大喜利ハッカソン優秀賞」を受賞しました。',
+      title: '大塚晴貴さんが「大喜利ハッカソン優秀賞」受賞',
+      description: '第19回言語処理若手シンポジウム（YANS2024）で行われたハッカソンで、大塚晴貴さんが「大喜利ハッカソン優秀賞」を受賞しました。',
     },
     {
       image: '/~nlplab/news_img/20240904yansall.png',
