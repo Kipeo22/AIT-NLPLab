@@ -8,7 +8,7 @@ export default function News() {
       image: '/~nlplab/news_img/20250324_ait.jpg',
       date: '2025/03/24',
       title: '肥田京佳さんが学生表彰を受賞',
-      description: 'YANS2024での受賞が評価され、肥田京佳さんが愛知工業大学令和六年度学生表彰を受賞しました。学究的活動において優れた成果を挙げた学生に贈られる賞で、今年度は肥田さんを含む3名に贈られました。',
+      description: 'YANS2024での受賞が評価され、肥田京佳さんが愛知工業大学令和六年度学生表彰を受賞しました。学内で3名だけが受賞した価値ある賞です。',
     },
     {
       image: '/~nlplab/news_img/20240906YANS_hida.JPG',
