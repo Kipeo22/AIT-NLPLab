@@ -66,7 +66,7 @@ export default function Member() {
       name: '清水綾太',
       image: '/~nlplab/member_img/shimizu.jpg',
       /* description: '氏名の下に何かひとこと書きたい人はここに書いてコメントを外してください', */
-      link: 'https://example.com/url', // 個人ページURL
+      link: 'https://mizuryo108.github.io/', // 個人ページURL
     },
 　  {
       name: '長谷川騎平',
