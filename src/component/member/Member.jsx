@@ -89,9 +89,18 @@ export default function Member() {
 
   ];
 
+  const students_b3 = [
+    {
+      name: '愛知太郎',
+      image: '',
+      /* description: '氏名の下に何かひとこと書きたい人はここに書いてコメントを外してください', */
+      link: '', // 個人ページURL
+    },
+  ]
+
   return (
     <section id='member'>
-      <MemberList teachers={teachers} students_b4={students_b4} />
+      <MemberList teachers={teachers} students_b4={students_b4} students_b3={students_b3}  />
     </section>
   );
 }
