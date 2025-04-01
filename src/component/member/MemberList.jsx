@@ -3,7 +3,7 @@ import Student from './student/Student';
 import Teacher from './teacher/Teacher';
 
 
-export default function MemberList({ teachers, students }) {
+export default function MemberList({ teachers, students_b4 }) {
   return (
     <section id='member' className={styles.section}>
      <div className={styles.member}>
@@ -15,10 +15,10 @@ export default function MemberList({ teachers, students }) {
         ))}
       </div>
       <div className={styles.students}>
-        <h3>学部4年生</h3>
-        <p className={styles.centerText}>画像をクリックすると各自のホームページが表示されます</p>
+      <p className={styles.centerText}>画像をクリックすると各自のホームページが表示されます</p>
+      <h3>学部4年生</h3>
         <div className={styles.MemberContainer}>
-          {students.map((student, index) => (
+          {students_b4.map((student, index) => (
             <Student key={index} student={student} />
           ))}
         </div>

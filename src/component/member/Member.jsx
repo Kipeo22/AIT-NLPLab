@@ -37,7 +37,7 @@ export default function Member() {
     },
   ];
 
-  const students = [
+  const students_b4 = [
     {
       name: '市川淳貴',
       image: '/~nlplab/member_img/ichikawa.jpg',
@@ -91,7 +91,7 @@ export default function Member() {
 
   return (
     <section id='member'>
-      <MemberList teachers={teachers} students={students} />
+      <MemberList teachers={teachers} students_b4={students_b4} />
     </section>
   );
 }
