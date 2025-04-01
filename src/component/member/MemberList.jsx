@@ -23,7 +23,7 @@ export default function MemberList({ teachers, students_b4 }) {
           ))}
         </div>
       <h3 style={{ marginTop: "4rem" }}>学部3年生</h3>
-      <p className={styles.centerText}>5月上旬に配属予定です</p>
+      <p className={styles.centerText}>学部3年生は5月上旬に配属予定です</p>
       </div>
       </div>
     </section>
