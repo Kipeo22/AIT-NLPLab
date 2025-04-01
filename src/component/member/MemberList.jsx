@@ -22,7 +22,7 @@ export default function MemberList({ teachers, students_b4 }) {
             <Student key={index} student={student} />
           ))}
         </div>
-      <h3>学部3年生</h3>
+      <h3 style={{ marginTop: "2rem" }}>学部3年生</h3>
       <p className={styles.centerText}>5月上旬に配属予定です</p>
       </div>
       </div>
