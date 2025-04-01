@@ -25,6 +25,7 @@ export default function MemberList({ teachers, students_b4 }) {
       <h3>学部3年生</h3>
       <p className={styles.centerText}>5月上旬に配属予定です</p>
       </div>
+      </div>
     </section>
   );
 }
