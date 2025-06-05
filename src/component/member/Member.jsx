@@ -144,7 +144,7 @@ export default function Member() {
 
   return (
     <section id='member'>
-      <MemberList teachers={teachers} students_b4={students_b4} />
+      <MemberList teachers={teachers} students_b4={students_b4} students_b3={students_b3}/>
     </section>
   );
 }
