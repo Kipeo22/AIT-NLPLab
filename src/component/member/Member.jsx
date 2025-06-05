@@ -122,7 +122,7 @@ export default function Member() {
     },
 　  {
       name: '三崎颯',
-      image: '/~nlplab/member_img/misaki.png',
+      image: '/~nlplab/member_img/misaki.jpg',
       /* description: '氏名の下に何かひとこと書きたい人はここに書いてコメントを外してください', */
       link: 'https://example.com/url', // 個人ページURL
     },
@@ -140,7 +140,7 @@ export default function Member() {
     },
     {
       name: '橋本彩花',
-      image: '/~nlplab/member_img/hashimoto.jpg',
+      image: '/~nlplab/member_img/hashimoto.png',
       /* description: '氏名の下に何かひとこと書きたい人はここに書いてコメントを外してください', */
       link: 'https://example.com/url', // 個人ページURL
     },
@@ -158,7 +158,7 @@ export default function Member() {
     },
     {
       name: '⽔⾕咲良',
-      image: '/~nlplab/member_img/mizutani.jpg',
+      image: '/~nlplab/member_img/sakura.jpg',
       /* description: '氏名の下に何かひとこと書きたい人はここに書いてコメントを外してください', */
       link: 'https://example.com/url', // 個人ページURL
     },
