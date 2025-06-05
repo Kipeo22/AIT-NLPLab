@@ -3,7 +3,7 @@ import Student from './student/Student';
 import Teacher from './teacher/Teacher';
 
 
-export default function MemberList({ teachers, students_b4 }) {
+export default function MemberList({ teachers, students_b4, students_b3 }) {
   return (
     <section id='member' className={styles.section}>
      <div className={styles.member}>
