@@ -89,6 +89,23 @@ export default function Member() {
 
   ];
 
+    const students_b3 = [
+    {
+      name: '池田涼真',
+      image: '/~nlplab/member_img/ikeda.jpg',
+      /* description: '氏名の下に何かひとこと書きたい人はここに書いてコメントを外してください', */
+      link: 'https://example.com/url', // 個人ページURL
+    },
+    {
+      name: '⾼井友暉',
+      image: '/~nlplab/member_img/takai.jpg',
+      /* description: '氏名の下に何かひとこと書きたい人はここに書いてコメントを外してください', */
+      link: 'https://example.com/url', // 個人ページURL
+    },
+  
+  ]  
+
+
   return (
     <section id='member'>
       <MemberList teachers={teachers} students_b4={students_b4} />
