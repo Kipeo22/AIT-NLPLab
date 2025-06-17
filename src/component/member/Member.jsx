@@ -154,7 +154,7 @@ export default function Member() {
       name: '松⽥隼人',
       image: '/~nlplab/member_img/matsuda.png',
       /* description: '氏名の下に何かひとこと書きたい人はここに書いてコメントを外してください', */
-      link: 'https://example.com/url', // 個人ページURL
+      link: 'https://hayato4319.myportfolio.com', // 個人ページURL
     },
     {
       name: '⽔⾕咲良',
