@@ -65,7 +65,7 @@ export default function News() {
         <div className={styles.NewsContainer}>
           {newsData.map((newsItem, index) => (
             <div key={index} className={styles.NewsItem}>
-              <Image src={newsItem.image} alt={`news image ${index + 1}`} width={340} height={230} style={{ objectFit: 'cover' }}/>
+              <img src={newsItem.image} alt={`news image ${index + 1}`} width={340} height={230} style={{ objectFit: 'cover' }}/>
               <div className={styles.NewsText}>
                 <p>
                   <span className ={styles.NewsDate}>{newsItem.date}</span> {/* 各ニュースごとの日付 */}
