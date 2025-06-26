@@ -5,6 +5,12 @@ export default function News() {
 
   const newsData = [
     {
+      image: '/~nlplab/news_img/20250625welcome.jpg',
+      date: '2025/06/25',
+      title: '３年生歓迎会',
+      description: '3年生が新たに12名加わり、徳久研は学生20名となりました。これからも賑やかに活動していきます！',
+    },
+    {
       image: '/~nlplab/news_img/20250324_ait.jpg',
       date: '2025/03/24',
       title: '肥田京佳さんが学生表彰を受賞',
