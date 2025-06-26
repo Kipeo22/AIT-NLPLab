@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import { useState } from 'react';
-import Image from 'next/image';
 import styles from './staticMain.module.css';
 
 export default function News() {
@@ -69,7 +68,7 @@ export default function News() {
       <div className={styles.news}>
         <h2>News</h2>
         <div className={styles.NewsContainer}>
-          {newsData.map((newsItem, index) => (
+          {displayedNews.map((newsItem, index) => (
             <div key={index} className={styles.NewsItem}>
               <img src={newsItem.image} alt={`news image ${index + 1}`} width={340} height={230} /> 
               <div className={styles.NewsText}>
