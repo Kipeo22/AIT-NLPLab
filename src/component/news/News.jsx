@@ -8,7 +8,7 @@ export default function News() {
       image: '/~nlplab/news_img/20250625welcome.jpg',
       date: '2025/06/25',
       title: '３年生歓迎会',
-      description: '3年生が新たに12名加わり、徳久研は学生20名となりました。これからも賑やかに活動していきます！',
+      description: '3年生が新たに12名加わり、徳久研は学生20名となりました。今年もみんなで焼肉に行きました。これからも賑やかに活動していきます！',
     },
     {
       image: '/~nlplab/news_img/20250324_ait.jpg',
