@@ -1,17 +1,14 @@
 import Image from 'next/image';
-import { useState } from 'react';
 import styles from './staticMain.module.css';
 
 export default function News() {
-
-  const [showAll, setShowAll] = useState(false); // 表示切替
 
   const newsData = [
     {
       image: '/~nlplab/news_img/20250625welcome.jpg',
       date: '2025/06/25',
       title: '３年生歓迎会',
-      description: '3年生が新たに12名加わり、徳久研は学生20名となりました。今年もみんなで焼肉に行きました。これからも賑やかに活動していきます！',
+      description: '3年生が12名加わり、徳久研の学生は20名となりました。今年もみんなで焼肉に行きました。これからも賑やかに活動していきます！',
     },
     {
       image: '/~nlplab/news_img/20250324_ait.jpg',
@@ -61,14 +58,12 @@ export default function News() {
     },
   ];
 
-  const displayedNews = showAll ? newsData : newsData.slice(0, 3);
-
   return (
     <section id='news' className={styles.section}>
       <div className={styles.news}>
         <h2>News</h2>
         <div className={styles.NewsContainer}>
-          {displayedNews.map((newsItem, index) => (
+          {newsData.map((newsItem, index) => (
             <div key={index} className={styles.NewsItem}>
               <Image src={newsItem.image} alt={`news image ${index + 1}`} width={340} height={230} style={{ objectFit: 'cover' }}/>
               <div className={styles.NewsText}>
@@ -97,13 +92,6 @@ export default function News() {
             </div>
           ))}
         </div>
-        {newsData.length > 3 && (
-          <div className={styles.ShowMoreButtonWrapper}>
-            <button onClick={() => setShowAll(!showAll)} className={styles.ShowMoreButton}>
-              {showAll ? '閉じる' : 'もっと見る'}
-            </button>
-          </div>
-        )}
       </div>
     </section>
   );
