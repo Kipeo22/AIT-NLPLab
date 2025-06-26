@@ -96,6 +96,7 @@
   color: #666; /* 文字は灰色に */
 }
 
+
 @media (max-width: 768px){
   .section{
     margin-bottom: 80px;

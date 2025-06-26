@@ -1,7 +1,11 @@
 import Image from 'next/image';
+import { useState } from 'react';
+import Image from 'next/image';
 import styles from './staticMain.module.css';
 
 export default function News() {
+
+  const [showAll, setShowAll] = useState(false); // 表示切替
 
   const newsData = [
     {
@@ -25,6 +29,7 @@ export default function News() {
         '「ふわふわ」「もったり」ってどう表現するの？ ーエージェントとの豊かなコミュニケーションの実現に向けてー・・・肥田 京佳, 市川 淳貴, 徳久 良子',
       ]
     },
+    // 以下、過去のニュース
     {
       image: '/~nlplab/news_img/20240906YANS_otsuka.JPG',
       date: '2024/09/04',
@@ -56,6 +61,8 @@ export default function News() {
       description: '研究室に学部3年生が8名配属されて、徳久研究室がスタートしました。',
     },
   ];
+
+  const displayedNews = showAll ? newsData : newsData.slice(0, 3);
 
   return (
     <section id='news' className={styles.section}>
@@ -91,6 +98,13 @@ export default function News() {
             </div>
           ))}
         </div>
+        {newsData.length > 3 && (
+          <div className={styles.ShowMoreButtonWrapper}>
+            <button onClick={() => setShowAll(!showAll)} className={styles.ShowMoreButton}>
+              {showAll ? '閉じる' : 'もっと見る'}
+            </button>
+          </div>
+        )}
       </div>
     </section>
   );
