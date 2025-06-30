@@ -118,7 +118,7 @@ export default function Member() {
       name: '布⽬柊',
       image: '/~nlplab/member_img/nunome.jpg',
       /* description: '氏名の下に何かひとこと書きたい人はここに書いてコメントを外してください', */
-      link: 'https://example.com/url', // 個人ページURL
+      link: 'https://hitodomi.github.io/homepage/', // 個人ページURL
     },
 　  {
       name: '三崎颯',
